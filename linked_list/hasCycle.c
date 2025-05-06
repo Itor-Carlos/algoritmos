@@ -2,6 +2,7 @@
 //link: https://leetcode.com/problems/linked-list-cycle/
 
 #include "list_node.h"
+#include <stdio.h>
 
 bool hasCycle(struct ListNode *head) {
     struct ListNode* fastPointer = head;

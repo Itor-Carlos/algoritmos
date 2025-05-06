@@ -2,6 +2,7 @@
 //link: https://leetcode.com/problems/middle-of-the-linked-list/
 
 #include "list_node.h"
+#include <stdio.h>
 
 struct ListNode* middleNode(struct ListNode* head) {
     int tamanho = 0;
